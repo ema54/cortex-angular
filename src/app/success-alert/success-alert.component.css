@@ -1,0 +1,6 @@
+.alert-success{
+    color:rgb(246, 246, 246);
+    background-color: rgb(119, 255, 0);
+    text-shadow: 5px ;
+    font-size: 30px;
+}
