@@ -1,4 +1,8 @@
-.container{
-    text-align: center;
-    margin: 100px;
+.component{
+    margin:20px;
+
+}
+
+h3{
+    color:rgb(10, 165, 227);
 }
