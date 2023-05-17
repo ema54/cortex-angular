@@ -1,1 +1,7 @@
-<p>directives-practicing works!</p>
+<button (click)="onClick()">Display details</button>
+<p *ngIf="showParagraph">Secret password: Zero</p>
+<ul>
+    <li *ngFor="let entry of logEntries; let i = index" [ngStyle]="{'color': i >= 4 ? 'white' : 'black'}" [ngClass]="{'highlight': i >= 5}">
+      {{ entry }}
+    </li>
+  </ul>
