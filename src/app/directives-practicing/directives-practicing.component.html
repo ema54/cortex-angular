@@ -1,7 +1,7 @@
 <button (click)="onClick()">Display details</button>
 <p *ngIf="showParagraph">Secret password: Zero</p>
 <ul>
-    <li *ngFor="let entry of logEntries; let i = index" [ngStyle]="{'color': i >= 4 ? 'white' : 'black'}" [ngClass]="{'highlight': i >= 5}">
+    <li *ngFor="let entry of logEntries; let i = index" [ngStyle]="{'color': i >= 4 ? 'white' : 'black'}" [ngClass]="{'highlight': i >= 4}">
       {{ entry }}
     </li>
   </ul>
